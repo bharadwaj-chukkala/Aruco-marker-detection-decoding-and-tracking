@@ -1,6 +1,6 @@
-Aruco-marker-detection-decoding-and-tracking
+# Aruco-marker-detection-decoding-and-tracking
 
-### Objective
+## Objective
 
 This project will focus on detecting a custom AR Tag (a form of **fiducial marker**), that is used for obtaining a point of reference in the real world, such as in augmented reality applications. There are two aspects to using an AR Tag, namely **Detection and Tracking**, both of which will be implemented in this project. The detection stage will involve finding the AR Tag from a given image sequence while the tracking stage will involve keeping the tag in“view” throughout the sequence and performing image processing operations based on the tag's orientation and position (a.k.a. the pose).
 
@@ -45,59 +45,47 @@ This project will focus on detecting a custom AR Tag (a form of **fiducial marke
 
 ## Implementation Steps and Results
 
-### Image Preprocessing
-
-```
-<p align="center">
-  <img width="500" height="300" src="">
-</p>
-<p align="center">Fig 1</p>
-```
-
-### Edge and Corner Detection
-
-```
-<p align="center">
-  <img width="500" height="300" src="">
-</p>
-<p align="center">Fig 2</p>
-```
-
-### Decoding the AR Tag through Warping
-
-```
-<p align="center">
-  <img width="500" height="300" src="">
-</p>
-<p align="center">Fig 3</p>
-```
-
 ### Aruco Marker/ AR Tag Detection and Tracking
 
+#### Image Preprocessing
+
 <p align="center">
-  <img width="500" height="300" src="">
+  <img width="500" height="300" src="https://github.com/bharadwaj-chukkala/Aruco-marker-detection-decoding-and-tracking/blob/main/outputs/Image%20processing.jpeg">
 </p>
-<p align="center">Fig 4</p>
+<p align="center">Fig 1.</p>
 
-### Superimposing the Testudo Image onto the TAG
 
-```
+#### Edge and Corner Detection
+
 <p align="center">
-  <img width="500" height="300" src="">
+  <img width="500" height="300" src="https://github.com/bharadwaj-chukkala/Aruco-marker-detection-decoding-and-tracking/blob/main/outputs/corner%20detection.jpeg">
 </p>
-<p align="center">Fig 5</p>
-```
+<p align="center">Fig 2.</p>
 
-### Projecting a Cube on the Edges of the Image
+#### Decoding the AR Tag through Warping
 
-```
 <p align="center">
-  <img width="500" height="300" src="">
+  <img width="500" height="300" src="https://github.com/bharadwaj-chukkala/Aruco-marker-detection-decoding-and-tracking/blob/main/outputs/inverse%20warping.png">
 </p>
-<p align="center">Fig 6</p>
-```
+<p align="center">Fig 3.</p>
 
-### [Implementation Video](https://drive.google.com/file/d/1pOVUtEE8CBgBspRY5OWFubUl79Ctn0dL/view?usp=share_link)
+### Tracking the detected Tag
+
+#### Superimposing the Testudo Image onto the TAG
+
+<p align="center">
+  <img width="500" height="300" src="https://github.com/bharadwaj-chukkala/Aruco-marker-detection-decoding-and-tracking/blob/main/outputs/testudo%20on%20AR%20tag.png">
+</p>
+<p align="center">Fig 4.</p>
+
+#### Projecting a Cube on the Edges of the Image
+
+<p align="center">
+  <img width="500" height="300" src="https://github.com/bharadwaj-chukkala/Aruco-marker-detection-decoding-and-tracking/blob/main/outputs/Cube%20projection.jpeg">
+</p>
+<p align="center">Fig 5.</p>
+
+### [Implementation Video](https://github.com/bharadwaj-chukkala/Aruco-marker-detection-decoding-and-tracking/blob/main/outputs/Testudo%20Superimposition%20and%20Cube%20Projection.mp4)
 
 ## References
 
