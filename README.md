@@ -65,7 +65,7 @@ This project will focus on detecting a custom AR Tag (a form of **fiducial marke
 #### Decoding the AR Tag through Warping
 
 <p align="center">
-  <img width="500" height="300" src="https://github.com/bharadwaj-chukkala/Aruco-marker-detection-decoding-and-tracking/blob/main/outputs/inverse%20warping.png">
+  <img width="200" height="200" src="https://github.com/bharadwaj-chukkala/Aruco-marker-detection-decoding-and-tracking/blob/main/outputs/inverse%20warping.png">
 </p>
 <p align="center">Fig 3.</p>
 
